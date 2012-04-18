@@ -1,0 +1,21 @@
+Blackspark GB AOSP
+==================
+
+How to Build
+------------
+
+To get started with Blackspark AOSP, you'll need to get
+familiar with [Git and Repo](http://source.android.com/download/using-repo).
+
+* repo init -u git://github.com/blackspark-gb-aosp/android.git
+* repo sync
+* . build/envsetup.sh
+* lunch (select our device)
+* make otapackage
+
+Note: These instructions are incomplete and not ready for primetime.  Please
+refrain from building or talking about this project until I (bikedude880)
+post something about it.  Most likely it won't even get off the ground, so
+don't get your hopes up.
+
+Thanks CyanogenMod for showing how to make a nice README file :)

@@ -186,6 +186,7 @@
 
   <!-- Blackspark packages -->
   <project path="android" name="blackspark-gb-aosp/android" />
+  <project path="vendor/blackspark" name="blackspark-gb-aosp/vendor_blackspark" />
   <project path="vendor/motorola" name="blackspark-gb-aosp/proprietary_vendor_motorola" />
 
 </manifest>

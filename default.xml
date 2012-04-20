@@ -185,8 +185,8 @@
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
   <!-- Blackspark packages -->
-  <project path="android" name="blackspark-gb-aosp/android" />
-  <project path="vendor/blackspark" name="blackspark-gb-aosp/vendor_blackspark" />
-  <project path="vendor/motorola" name="blackspark-gb-aosp/proprietary_vendor_motorola" />
+  <project path="android" name="blackspark-gb-aosp/android" remote="github" revision="gingerbread"  />
+  <project path="vendor/blackspark" name="blackspark-gb-aosp/vendor_blackspark" remote="github" revision="gingerbread"  />
+  <project path="vendor/motorola" name="blackspark-gb-aosp/proprietary_vendor_motorola" remote="github" revision="gingerbread" />
 
 </manifest>

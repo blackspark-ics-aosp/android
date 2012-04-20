@@ -5,7 +5,6 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="github"
-	   revision="gingerbread"
            fetch="git://github.com/" />
 
   <default revision="refs/tags/android-2.3.7_r1"

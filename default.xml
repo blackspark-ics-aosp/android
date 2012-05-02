@@ -15,7 +15,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform/bionic" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
@@ -168,7 +167,6 @@
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
   <project path="hardware/ril" name="platform/hardware/ril" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
@@ -230,14 +228,18 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
 
   <!-- Blackspark packages -->
-  <project path="android" name="blackspark-gb-aosp/android" remote="github" revision="ics"  />
-  <project path="vendor/motorola" name="blackspark-gb-aosp/proprietary_vendor_motorola" remote="github" revision="gingerbread" />
+  <project path="android" name="blackspark-ics-aosp/android" remote="github" revision="ics"  />
+  <project path="bionic" name="tpruvot/android_bionic" remote="github" revision="ics" />
+  <project path="device/motorola/hijack" name="CM9-D2G/android_device_moto_hijack" remote="github" revision="ics" />
+  <project path="hardware/ti/omap3" name="CM9-D2G/android_hardware_ti_omap3-compat" remote="github" revision="ics" />
+  <project path="system/core" name="CM9-D2G/android_system_core" remote="github" revision="ics" />
+  <project path="vendor/motorola" name="CM9-D2G/proprietary_vendor_motorola" remote="github" revision="cm9" />
+
 
 </manifest>

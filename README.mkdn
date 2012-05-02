@@ -7,7 +7,7 @@ How to Build
 To get started with Blackspark AOSP, you'll need to get
 familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
-* repo init -u git://github.com/blackspark-gb-aosp/android.git -b ics
+* repo init -u git://github.com/blackspark-ics-aosp/android.git -b ics
 * repo sync -j4
 * . build/envsetup.sh
 * lunch (select our device)

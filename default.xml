@@ -235,11 +235,15 @@
 
   <!-- Blackspark packages -->
   <project path="android" name="blackspark-ics-aosp/android" remote="github" revision="ics"  />
+  <project path="device/moto/droid2we" name="blackspark-ics-aosp/android_device_motorola_droid2we" remote="github" revision="cm9" />
+  <project path="device/moto/omap34com" name="blackspark-ics-aosp/android_device_motorola_omap34com" remote="github" revision="cm9" />
+
+  <!-- CM9-D2G manifest kick-start -->
   <project path="bionic" name="tpruvot/android_bionic" remote="github" revision="ics" />
-  <project path="device/motorola/hijack" name="CM9-D2G/android_device_moto_hijack" remote="github" revision="ics" />
+  <project path="device/moto/hijack" name="CM9-D2G/android_device_moto_hijack" remote="github" revision="ics" />
   <project path="hardware/ti/omap3" name="CM9-D2G/android_hardware_ti_omap3-compat" remote="github" revision="ics" />
   <project path="system/core" name="CM9-D2G/android_system_core" remote="github" revision="ics" />
-  <project path="vendor/motorola" name="CM9-D2G/proprietary_vendor_motorola" remote="github" revision="cm9" />
+  <project path="vendor/moto" name="CM9-D2G/proprietary_vendor_motorola" remote="github" revision="cm9" />
 
 
 </manifest>

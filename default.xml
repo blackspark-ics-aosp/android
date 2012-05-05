@@ -236,7 +236,7 @@
   <!-- Blackspark packages -->
   <project path="android" name="blackspark-ics-aosp/android" remote="github" revision="ics"  />
   <project path="device/moto/droid2we" name="blackspark-ics-aosp/android_device_motorola_droid2we" remote="github" revision="cm9" />
-  <project path="device/moto/omap34com" name="blackspark-ics-aosp/android_device_motorola_omap34com" remote="github" revision="cm9" />
+  <project path="device/moto/omap34com" name="blackspark-ics-aosp/android_device_motorola_omap34com" remote="github" revision="master" />
 
   <!-- CM9-D2G manifest kick-start -->
   <project path="bionic" name="tpruvot/android_bionic" remote="github" revision="ics" />
